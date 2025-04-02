@@ -29,7 +29,7 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title"
-            >Volume of a Right rectangular pyramid , in JS</span
+            >Volume of a Right rectangular pyramid , in JS</span  
           >
         </div>
       </header>
@@ -44,38 +44,36 @@
         <br />
         <form>
           <!-- Simple Textfield -->
-          <p>V = (L x W x H) / 3 </p>
-          <div class="page-content">Please enter integers for dimentions:</div>
+          <p>V = (L x W x H) / 3</p>
+          <div class="page-content">Please enter integers for dimensions:</div>
           <div class="mdl-textfield mdl-js-textfield">
-            <p>Base length:</p>
+            <p>Length:</p>
             <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
+              class="mdl-textbox__input"
+              type="number"
               id="length-of-pyramid"
             />
+            <span>mm</span>
           </div>
           <!-- Numeric Textfield -->
-          <p>Base width:</p>
+          <p>Width:</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
+              class="mdl-textbox__input"
+              type="number"
               id="width-of-pyramid"
-            /> 
-            <span class="mdl-textfield__error">Input is not a number!</span>
+            />
+            <span>mm</span>
           </div>
           <!-- Numeric Textfield -->
-          <p>Pyramid height:</p>
+          <p>Height:</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
+            <input  
+              class="mdl-textbox__input"
+              type="number"
               id="height-of-pyramid"
             />
-            <span class="mdl-textfield__error">Input is not a number!</span>
+            <span>mm</span>
           </div>
           <br />
           <!-- Raised button with ripple -->
