@@ -11,7 +11,7 @@ function calculateVolume() {
   let heightInput = document.getElementById("height-of-pyramid").value
 
   // Correct volume calculation
-  const calculateVolume = (lengthInput *widthInput * heightInput) / 3
+  const calculateVolume = (lengthInput * widthInput * heightInput) / 3
 
   // Display result
   document.getElementById("user-info").innerText =
